@@ -7,12 +7,17 @@ using UnityEngine.UI;
 public class Tab : MonoBehaviour
 {
     [SerializeField] private Button _button;
-    [SerializeField] private ContentType _tabType;
-    public event Action<ContentType> SomeAction;
+    public ContentType TabType;
+    public event Action<ContentType> OnTabClick;
+    [SerializeField] private Image _image;
+    [SerializeField] private Sprite _passiveImage;
+    [SerializeField] private Sprite _activeImage;
+    public bool IsActive = false;
 
     private void Start()
     {
         Subscribe();
+        _image.sprite = _passiveImage;
     }
 
     private void Subscribe()
@@ -22,14 +27,16 @@ public class Tab : MonoBehaviour
     
     private void ClickAct()
     {
-        SomeAction.Invoke(_tabType);
+        if (IsActive) return;
+        IsActive = true;
+        _image.sprite = _activeImage;
+        OnTabClick?.Invoke(TabType);
+    }
+
+    public void SetNotActive()
+    {
+        IsActive = false;
+        _image.sprite = _passiveImage;
     }
 }
 
-public enum ContentType
-{
-    Blush,
-    Eyeshadow,
-    Lipstick,
-    Powder
-}

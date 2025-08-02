@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ContentManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private ContentData _contentData;
+    private Content _currentContent;
+    private GameObject _content;
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeContent(ContentType type)
     {
-        
+        if (_currentContent != null && _currentContent.ContentType == type) return;
+        if(_currentContent!=null) Destroy(_content);
+        _currentContent = _contentData.Contents.Find(p => p.ContentType == type);
+        _content = Instantiate(_currentContent.ContentPrefab, transform);
+        //var _contentData._contents
+        print($"loading {type} content");
     }
 }
