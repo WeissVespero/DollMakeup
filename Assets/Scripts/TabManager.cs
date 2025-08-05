@@ -45,7 +45,6 @@ public class TabManager : MonoBehaviour
             }
             
         }
-        print($"pressed tab of {_currentType} type");
         OnTabChange?.Invoke(_currentType);
     }
 

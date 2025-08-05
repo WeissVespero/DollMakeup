@@ -6,5 +6,6 @@ using UnityEngine;
 public class Content : MonoBehaviour
 {
     public ContentType ContentType;
-    public GameObject ContentPrefab;
+
+    //public GameObject ContentPrefab;
 }
