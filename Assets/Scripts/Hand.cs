@@ -23,6 +23,19 @@ public class Hand : MonoBehaviour
 
     private void HandTakeTool()
     {
+        print("Tool taken");
         _currentToolSettings.RectTransform.SetParent(transform);
+    }
+
+    private void ToolReturn()
+    {
+        print("Tool returning");
+        _currentToolSettings.RectTransform.SetParent(_currentToolSettings.OriginalParentTransform);
+    }
+
+    public void HandPerfomAction()
+    {
+        _animator.SetBool("IsToolClicked", false);
+        _animator.SetBool("IsActionBegin", true);
     }
 }

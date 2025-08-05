@@ -2314,6 +2314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _creamTool: {fileID: 1419377156}
   _hand: {fileID: 1831652800}
+  _dropZone: {fileID: 1395422222}
 --- !u!4 &1773291836
 Transform:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class DropZone : MonoBehaviour, IDropHandler
 {
+    public event Action ToolDropped;
+
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("Dropped on the DropZone!");
@@ -16,7 +19,8 @@ public class DropZone : MonoBehaviour, IDropHandler
             DragAndDropTool draggedItem = eventData.pointerDrag.GetComponent<DragAndDropTool>();
 
             // Reparent the dragged item to this drop zone
-            draggedItem.transform.SetParent(transform, false);
+            //draggedItem.transform.SetParent(transform, false);
+            ToolDropped.Invoke();
         }
     }
 }
