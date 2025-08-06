@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Hand : MonoBehaviour
 {
     [SerializeField] Animator _animator;
     public Transform RealPosition;
+    public Vector3 StartToolPosition;
     private ToolSettings _currentToolSettings;
 
     private void Start()
@@ -19,6 +21,7 @@ public class Hand : MonoBehaviour
     public void SetCurrentToolSettings(ToolSettings toolSettings)
     {
         _currentToolSettings = toolSettings;
+        StartToolPosition = _currentToolSettings.RectTransform.position;
     }
 
     private void HandTakeTool()
@@ -31,6 +34,8 @@ public class Hand : MonoBehaviour
     {
         print("Tool returning");
         _currentToolSettings.RectTransform.SetParent(_currentToolSettings.OriginalParentTransform);
+        _currentToolSettings.RectTransform.position  = StartToolPosition;
+        _animator.SetBool("IsActionBegin", false);
     }
 
     public void HandPerfomAction()

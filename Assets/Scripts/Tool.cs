@@ -38,6 +38,11 @@ public class Tool : MonoBehaviour
         });
     }
 
+    public void SetIsHeldFalse()
+    {
+        _isHeld = false;
+    }
+
     private void Unsubscribe()
     {
         _button.onClick.RemoveAllListeners();

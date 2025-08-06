@@ -2315,6 +2315,7 @@ MonoBehaviour:
   _creamTool: {fileID: 1419377156}
   _hand: {fileID: 1831652800}
   _dropZone: {fileID: 1395422222}
+  _acne: {fileID: 2070409097}
 --- !u!4 &1773291836
 Transform:
   m_ObjectHideFlags: 0
@@ -2582,6 +2583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 1831652796}
   RealPosition: {fileID: 1822789566}
+  StartToolPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1913689535
 GameObject:
   m_ObjectHideFlags: 0
