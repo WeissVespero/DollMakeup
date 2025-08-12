@@ -39,4 +39,3 @@ public class Tab : MonoBehaviour
         _image.sprite = _passiveImage;
     }
 }
-

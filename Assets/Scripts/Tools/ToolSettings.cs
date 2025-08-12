@@ -6,4 +6,5 @@ public class ToolSettings
     public Color Color;
     public RectTransform RectTransform;
     public Transform OriginalParentTransform;
+    public int ID;
 }

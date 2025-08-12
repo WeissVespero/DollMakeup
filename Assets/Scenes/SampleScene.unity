@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 73643522}
   - component: {fileID: 73643524}
   - component: {fileID: 73643523}
+  - component: {fileID: 73643525}
   m_Layer: 5
   m_Name: Eyeshadow6
   m_TagString: Untagged
@@ -274,6 +275,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73643521}
   m_CullTransparentMesh: 1
+--- !u!114 &73643525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73643521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 5
+  Image: {fileID: 73643523}
 --- !u!1 &102924924
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +444,7 @@ GameObject:
   - component: {fileID: 175539123}
   - component: {fileID: 175539125}
   - component: {fileID: 175539124}
+  - component: {fileID: 175539126}
   m_Layer: 5
   m_Name: Lipstick3
   m_TagString: Untagged
@@ -493,6 +509,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175539122}
   m_CullTransparentMesh: 1
+--- !u!114 &175539126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175539122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 2
+  Image: {fileID: 175539124}
 --- !u!1 &378970460
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +534,7 @@ GameObject:
   - component: {fileID: 378970461}
   - component: {fileID: 378970463}
   - component: {fileID: 378970462}
+  - component: {fileID: 378970464}
   m_Layer: 5
   m_Name: Lipstick1
   m_TagString: Untagged
@@ -568,6 +599,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378970460}
   m_CullTransparentMesh: 1
+--- !u!114 &378970464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378970460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 0
+  Image: {fileID: 378970462}
 --- !u!1 &396596795
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +624,7 @@ GameObject:
   - component: {fileID: 396596796}
   - component: {fileID: 396596798}
   - component: {fileID: 396596797}
+  - component: {fileID: 396596799}
   m_Layer: 5
   m_Name: Lipstick2
   m_TagString: Untagged
@@ -643,6 +689,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396596795}
   m_CullTransparentMesh: 1
+--- !u!114 &396596799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396596795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 1
+  Image: {fileID: 396596797}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +806,7 @@ GameObject:
   - component: {fileID: 523306526}
   - component: {fileID: 523306528}
   - component: {fileID: 523306527}
+  - component: {fileID: 523306529}
   m_Layer: 5
   m_Name: Eyeshadow7
   m_TagString: Untagged
@@ -810,6 +871,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523306525}
   m_CullTransparentMesh: 1
+--- !u!114 &523306529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523306525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 6
+  Image: {fileID: 523306527}
 --- !u!1 &634138986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1215,7 @@ GameObject:
   - component: {fileID: 823789778}
   - component: {fileID: 823789780}
   - component: {fileID: 823789779}
+  - component: {fileID: 823789781}
   m_Layer: 5
   m_Name: Eyeshadow9
   m_TagString: Untagged
@@ -1204,6 +1280,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823789777}
   m_CullTransparentMesh: 1
+--- !u!114 &823789781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823789777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 8
+  Image: {fileID: 823789779}
 --- !u!1 &861024307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1305,7 @@ GameObject:
   - component: {fileID: 861024308}
   - component: {fileID: 861024310}
   - component: {fileID: 861024309}
+  - component: {fileID: 861024311}
   m_Layer: 5
   m_Name: Girl
   m_TagString: Untagged
@@ -1283,6 +1374,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861024307}
   m_CullTransparentMesh: 1
+--- !u!114 &861024311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861024307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8e9373d022d7e498e28f9b280b09e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lipsticks:
+  - {fileID: 378970464}
+  - {fileID: 396596799}
+  - {fileID: 175539126}
+  - {fileID: 1072534367}
+  - {fileID: 1631326486}
+  - {fileID: 1575486495}
+  EyeShadows:
+  - {fileID: 2101639539}
+  - {fileID: 1809507910}
+  - {fileID: 1913689539}
+  - {fileID: 1703311104}
+  - {fileID: 1700686560}
+  - {fileID: 73643525}
+  - {fileID: 523306529}
+  - {fileID: 1448792135}
+  - {fileID: 823789781}
+  _acne: {fileID: 2070409097}
 --- !u!1 &1019242121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1491,7 @@ GameObject:
   - component: {fileID: 1072534364}
   - component: {fileID: 1072534366}
   - component: {fileID: 1072534365}
+  - component: {fileID: 1072534367}
   m_Layer: 5
   m_Name: Lipstick4
   m_TagString: Untagged
@@ -1434,6 +1556,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072534363}
   m_CullTransparentMesh: 1
+--- !u!114 &1072534367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072534363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 3
+  Image: {fileID: 1072534365}
 --- !u!1 &1098811244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +1846,7 @@ GameObject:
   - component: {fileID: 1419377154}
   - component: {fileID: 1419377157}
   - component: {fileID: 1419377156}
+  - component: {fileID: 1419377158}
   m_Layer: 5
   m_Name: Cream
   m_TagString: Untagged
@@ -1789,6 +1926,8 @@ MonoBehaviour:
   _button: {fileID: 1419377157}
   _toolColor: {r: 0, g: 0, b: 0, a: 0}
   _toolType: 0
+  _applicator: {fileID: 1419377158}
+  ToolID: 0
 --- !u!114 &1419377157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +1972,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1419377158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419377152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12861880a259455409c362ef2fdd9c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1448792131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,6 +1995,7 @@ GameObject:
   - component: {fileID: 1448792132}
   - component: {fileID: 1448792134}
   - component: {fileID: 1448792133}
+  - component: {fileID: 1448792135}
   m_Layer: 5
   m_Name: Eyeshadow8
   m_TagString: Untagged
@@ -1908,6 +2060,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448792131}
   m_CullTransparentMesh: 1
+--- !u!114 &1448792135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448792131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 7
+  Image: {fileID: 1448792133}
 --- !u!1 &1575486491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,6 +2085,7 @@ GameObject:
   - component: {fileID: 1575486492}
   - component: {fileID: 1575486494}
   - component: {fileID: 1575486493}
+  - component: {fileID: 1575486495}
   m_Layer: 5
   m_Name: Lipstick6
   m_TagString: Untagged
@@ -1983,6 +2150,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575486491}
   m_CullTransparentMesh: 1
+--- !u!114 &1575486495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575486491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 5
+  Image: {fileID: 1575486493}
 --- !u!1 &1631326482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,6 +2175,7 @@ GameObject:
   - component: {fileID: 1631326483}
   - component: {fileID: 1631326485}
   - component: {fileID: 1631326484}
+  - component: {fileID: 1631326486}
   m_Layer: 5
   m_Name: Lipstick5
   m_TagString: Untagged
@@ -2058,6 +2240,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631326482}
   m_CullTransparentMesh: 1
+--- !u!114 &1631326486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631326482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011f7b38cbd198848abbe7e6124ccd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: 4
+  Image: {fileID: 1631326484}
 --- !u!1 &1679144699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2265,8 @@ GameObject:
   - component: {fileID: 1679144700}
   - component: {fileID: 1679144702}
   - component: {fileID: 1679144701}
+  - component: {fileID: 1679144704}
+  - component: {fileID: 1679144703}
   m_Layer: 5
   m_Name: Loofah
   m_TagString: Untagged
@@ -2111,7 +2309,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2133,6 +2331,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679144699}
   m_CullTransparentMesh: 1
+--- !u!114 &1679144703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679144699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e7a151b58cc46926174778f41896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 1679144704}
+--- !u!114 &1679144704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679144699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1679144701}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1700686556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,6 +2399,7 @@ GameObject:
   - component: {fileID: 1700686557}
   - component: {fileID: 1700686559}
   - component: {fileID: 1700686558}
+  - component: {fileID: 1700686560}
   m_Layer: 5
   m_Name: Eyeshadow5
   m_TagString: Untagged
@@ -2208,6 +2464,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700686556}
   m_CullTransparentMesh: 1
+--- !u!114 &1700686560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700686556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 4
+  Image: {fileID: 1700686558}
 --- !u!1 &1703311100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,6 +2489,7 @@ GameObject:
   - component: {fileID: 1703311101}
   - component: {fileID: 1703311103}
   - component: {fileID: 1703311102}
+  - component: {fileID: 1703311104}
   m_Layer: 5
   m_Name: Eyeshadow4
   m_TagString: Untagged
@@ -2283,6 +2554,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703311100}
   m_CullTransparentMesh: 1
+--- !u!114 &1703311104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703311100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 3
+  Image: {fileID: 1703311102}
 --- !u!1 &1773291834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,9 +2598,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _creamTool: {fileID: 1419377156}
+  _loofah: {fileID: 1679144703}
   _hand: {fileID: 1831652800}
   _dropZone: {fileID: 1395422222}
-  _acne: {fileID: 2070409097}
+  _girl: {fileID: 861024311}
+  _bookManager: {fileID: 750934812}
 --- !u!4 &1773291836
 Transform:
   m_ObjectHideFlags: 0
@@ -2342,6 +2629,7 @@ GameObject:
   - component: {fileID: 1809507907}
   - component: {fileID: 1809507909}
   - component: {fileID: 1809507908}
+  - component: {fileID: 1809507910}
   m_Layer: 5
   m_Name: Eyeshadow2
   m_TagString: Untagged
@@ -2406,6 +2694,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809507906}
   m_CullTransparentMesh: 1
+--- !u!114 &1809507910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809507906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  Image: {fileID: 1809507908}
 --- !u!1 &1822789565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,6 +2897,7 @@ GameObject:
   - component: {fileID: 1913689536}
   - component: {fileID: 1913689538}
   - component: {fileID: 1913689537}
+  - component: {fileID: 1913689539}
   m_Layer: 5
   m_Name: Eyeshadow3
   m_TagString: Untagged
@@ -2659,6 +2962,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913689535}
   m_CullTransparentMesh: 1
+--- !u!114 &1913689539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913689535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 2
+  Image: {fileID: 1913689537}
 --- !u!1 &2012963859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +3025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _contentData: {fileID: 11400000, guid: d9f788d8634aa5841971d2d61669faf8, type: 2}
+  CurrentContent: {fileID: 0}
 --- !u!1 &2041104884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,6 +3189,7 @@ GameObject:
   - component: {fileID: 2101639536}
   - component: {fileID: 2101639538}
   - component: {fileID: 2101639537}
+  - component: {fileID: 2101639539}
   m_Layer: 5
   m_Name: Eyeshadow1
   m_TagString: Untagged
@@ -2935,6 +3254,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101639535}
   m_CullTransparentMesh: 1
+--- !u!114 &2101639539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101639535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302abd59655885e4999a47d316f1d0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  Image: {fileID: 2101639537}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

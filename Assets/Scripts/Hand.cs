@@ -1,5 +1,5 @@
+using System;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Hand : MonoBehaviour
 {
@@ -7,6 +7,10 @@ public class Hand : MonoBehaviour
     public Transform RealPosition;
     public Vector3 StartToolPosition;
     private ToolSettings _currentToolSettings;
+
+    public ToolSettings CurrentToolSettings => _currentToolSettings;
+
+    public event Action<ToolType, int> ActionFinished;
 
     private void Start()
     {
@@ -18,6 +22,8 @@ public class Hand : MonoBehaviour
         _animator.SetBool("IsToolClicked", true);
     }
 
+
+
     public void SetCurrentToolSettings(ToolSettings toolSettings)
     {
         _currentToolSettings = toolSettings;
@@ -26,16 +32,15 @@ public class Hand : MonoBehaviour
 
     private void HandTakeTool()
     {
-        print("Tool taken");
         _currentToolSettings.RectTransform.SetParent(transform);
     }
 
     private void ToolReturn()
     {
-        print("Tool returning");
         _currentToolSettings.RectTransform.SetParent(_currentToolSettings.OriginalParentTransform);
         _currentToolSettings.RectTransform.position  = StartToolPosition;
         _animator.SetBool("IsActionBegin", false);
+        ActionFinished.Invoke(_currentToolSettings.ToolType,_currentToolSettings.ID);
     }
 
     public void HandPerfomAction()

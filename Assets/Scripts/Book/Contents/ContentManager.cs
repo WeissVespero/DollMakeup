@@ -8,7 +8,7 @@ using static UnityEditor.Timeline.TimelinePlaybackControls;
 public class ContentManager : MonoBehaviour
 {
     [SerializeField] private ContentData _contentData;
-    private Content _currentContent;
+    public Content CurrentContent;
     private Dictionary<ContentType, Content> _contentDictionary;
 
     private void Start()
@@ -18,11 +18,11 @@ public class ContentManager : MonoBehaviour
 
     public void ChangeContent(ContentType type)
     {
-        if (_currentContent != null && _currentContent.ContentType == type) return;
-        if (_currentContent != null) Destroy(_currentContent.gameObject);
+        if (CurrentContent != null && CurrentContent.ContentType == type) return;
+        if (CurrentContent != null) Destroy(CurrentContent.gameObject);
         if (_contentDictionary.TryGetValue(type, out var contentPrefab))
         {
-            _currentContent = Instantiate(contentPrefab, transform);
+            CurrentContent = Instantiate(contentPrefab, transform);
         }
     }
 }
