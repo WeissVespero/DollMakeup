@@ -1,2 +1,2 @@
 # DollMakeup
-Test task from Playnera. Make a doll makeup game
+Make a doll makeup game
